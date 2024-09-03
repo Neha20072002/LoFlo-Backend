@@ -31,7 +31,7 @@ public class MailService {
             + "<p style='font-size: 18px; color: #345734;'>We're so excited to have you join our community!</p>"
           
             + "<p style='font-size: 16px; color: #345734;'>Click the button below to flow into your new adventure with us:</p>"
-            + "<a href='https://google.com' style='display: inline-block; background-color: #6a994e; color: #ffffff; padding: 15px 25px; text-decoration: none; border-radius: 25px; font-size: 18px; font-weight: bold; margin: 20px 0; transition: background-color 0.3s ease;'>Flow into LoFlo 🪴</a>"
+            + "<a href='https://loflo-o.vercel.app/' style='display: inline-block; background-color: #6a994e; color: #ffffff; padding: 15px 25px; text-decoration: none; border-radius: 25px; font-size: 18px; font-weight: bold; margin: 20px 0; transition: background-color 0.3s ease;'>Flow into LoFlo 🪴</a>"
             + "<p style='font-size: 16px; color: #345734;'>Stay connected, stay green, and let's grow together! 🌿</p>"
             + "<p style='font-size: 16px; color: #345734;'>See you inside!<br>The LoFlo Team</p>"
             + "<div style='text-align: center; padding: 20px; border-top: 1px solid #8bb38d; margin-top: 30px;'>"
