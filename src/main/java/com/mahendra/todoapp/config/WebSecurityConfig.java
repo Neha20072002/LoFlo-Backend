@@ -73,7 +73,7 @@ public class WebSecurityConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://loflo-backend-prod.up.railway.app", "https://loflo-o.vercel.app/") // Adjust this to your frontend URL
+                        .allowedOrigins( "https://loflo-o.vercel.app", "https://loflo-backend-prod.up.railway.app") // Adjust this to your frontend URL
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
