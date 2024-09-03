@@ -40,8 +40,8 @@ public class WebSecurityConfig {
             .cors(Customizer.withDefaults()) // Enable CORS
             .authorizeHttpRequests(authorize -> authorize
                 .requestMatchers(WHITELIST).permitAll()
-                .requestMatchers("/api/users/register").permitAll()
-                .requestMatchers("/api/users/login").permitAll()
+//                .requestMatchers("/api/users/register").permitAll()
+//                .requestMatchers("/api/users/login").permitAll()
                 .requestMatchers("/api/todos/**").authenticated()
             )
             .formLogin(formLogin -> formLogin
